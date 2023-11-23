@@ -7,7 +7,7 @@ The initial steps involved setting up a MongoDB database named "uk_food," import
 Key imports included MongoClient, pprint, pandas, and matplotlib for creating images of DataFrames. The project encompassed tasks such as adding a new restaurant, Penang Flavors, updating restaurant information, excluding Dover locations as per the magazine's preference, and adjusting data types for numeric values in the dataset.
 
 Jupyter notebook analysis in 
-
+https://github.com/TapleenLamba/-nosql-challenge/blob/main/NoSQL_analysis_starter.ipynb
 
 Utilizing the count_documents method, I displayed the number of documents in the result. The first document was presented using pprint and subsequently converted the result into a Pandas DataFrame. The analysis involved identifying establishments with a hygiene score of 20, establishments in London with a RatingValue greater than or equal to 4 (using the $regex method), and the top 5 establishments with a RatingValue of '5' sorted by the lowest hygiene score, closest to the recently added restaurant "Penang Flavours." This proximity search was performed within 0.01 degrees on either side of latitude and longitude.
 
